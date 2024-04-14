@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - GitHub Style</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('monkey_background.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      color: #fff;
+    }
+    .section {
+      margin-top: 50px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .section-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .section-content {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>About Me</h1>
+      <p>Welcome to my GitHub-style webpage!</p>
+    </div>
+    
+    <div class="section">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-content">Hi there! I'm passionate about monkeys and everything related to them. From their behavior to their habitats, I'm fascinated by these creatures. Join me on this monkey adventure!</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-content">Feel free to reach out to me if you have any questions or just want to chat about monkeys! You can contact me via email at <a href="mailto:monkeylover@example.com">monkeylover@example.com</a> or connect with me on social media.</p>
+    </div>
+  </div>
+
+</body>
+</html>
